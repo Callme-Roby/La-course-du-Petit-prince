@@ -1,0 +1,45 @@
+.section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-large);
+}
+
+.title {
+  letter-spacing: -0.025em;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xlarge);
+  width: min(840px, 50%);
+  flex-shrink: 0;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-xlarge);
+}
+
+.number {
+  flex-shrink: 0;
+  min-width: 1.2em;
+}
+
+@media (max-width: 900px) {
+  .section {
+    flex-direction: column;
+  }
+
+  .list {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .step {
+    gap: var(--spacer-s2);
+  }
+}

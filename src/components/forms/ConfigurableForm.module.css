@@ -1,0 +1,215 @@
+/* Composant Figma "Form" (2057:5581) — largeur 700px, colonnes de 24px */
+.form,
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-large);
+  width: 100%;
+  max-width: 700px;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-large);
+  width: 100%;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.label {
+  color: var(--color-text-primary);
+}
+
+.star {
+  color: var(--color-text-error, #b42318);
+}
+
+.input {
+  width: 100%;
+  padding: var(--spacer-s2) var(--spacer-m2);
+  border: 1px solid var(--color-border-secondary);
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.25);
+  color: var(--color-text-primary);
+  font-size: var(--fs-p-xs);
+  line-height: var(--lh-p);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.input::placeholder {
+  color: var(--color-text-tertiary);
+  opacity: 1;
+}
+
+.input:hover {
+  box-shadow: inset 0 0 0 1px var(--color-border-secondary);
+}
+
+.input:focus-visible {
+  outline: none;
+  border-color: var(--color-blue);
+  box-shadow: inset 0 0 0 1px var(--color-blue);
+}
+
+.input[aria-invalid="true"] {
+  border-color: var(--color-text-error, #b42318);
+}
+
+.textarea {
+  padding-bottom: var(--spacer-l3);
+  resize: vertical;
+  min-height: 93px;
+}
+
+.error {
+  margin-top: var(--spacer-xs2);
+  color: var(--color-text-error, #b42318);
+  font-size: var(--fs-p-xs);
+  line-height: var(--lh-p);
+}
+
+.field .error {
+  margin-top: -7px;
+}
+
+/* Cases de consentement (2063:18899) */
+.consents {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-large);
+  max-width: 581px;
+}
+
+.consent {
+  display: flex;
+  align-items: center;
+  gap: var(--spacer-s2);
+}
+
+.checkbox {
+  appearance: none;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  border: 2px solid var(--color-border-secondary);
+  border-radius: 2px;
+  background: var(--color-white);
+  cursor: pointer;
+}
+
+.checkbox::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: var(--color-border-secondary);
+  transform: scale(0);
+  transition: transform 0.15s ease;
+}
+
+.checkbox:checked::after {
+  transform: scale(1);
+}
+
+.checkbox[aria-invalid="true"] {
+  border-color: var(--color-text-error, #b42318);
+}
+
+.consent label {
+  cursor: pointer;
+}
+
+/* reCAPTCHA factice (2057:5444) */
+.captcha {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 302px;
+  max-width: 100%;
+  height: 76px;
+  padding: 0 12px;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  background: #f9f9f9;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.08);
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.captchaBox {
+  appearance: none;
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  border: 2px solid #444746;
+  border-radius: 2px;
+  background: var(--color-white);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+.captchaBox::after {
+  content: "";
+  width: 8px;
+  height: 15px;
+  margin-top: -4px;
+  border: solid #009e55;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg) scale(0);
+  transition: transform 0.15s ease;
+}
+
+.captchaBox:checked {
+  border-color: transparent;
+  background: transparent;
+}
+
+.captchaBox:checked::after {
+  transform: rotate(45deg) scale(1);
+}
+
+.captchaLabel {
+  color: #000;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.captchaBrand {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  color: #555;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacer-xs2);
+}
+
+/* État envoyé */
+.success {
+  padding: var(--spacer-l1);
+  border: 1px solid var(--color-stroke-default);
+  background: var(--color-yellow-light);
+}
+
+.success:focus {
+  outline: none;
+}

@@ -1,0 +1,12 @@
+{
+  "$comment": "Page Nos ambassadeurs (2060:8101) : hero + cartes card-ambassadeur (section 2060:14435).",
+  "assets": [
+    { "file": "public/images/ambassadeurs/hero.jpg", "imageRef": "e377bdfdb56d7a12d79b9b2d60b5e590bdfce091", "width": 1149, "height": 768 },
+    { "file": "public/images/ambassadeurs/corsicaraid.jpg", "imageRef": "796d5f077ff0a11e849f7d51e9cae33056bf62d1", "width": 660, "height": 480 },
+    { "file": "public/images/ambassadeurs/tor330.jpg", "imageRef": "55c5625de4fcf79df34e61e6e00f3ff022dccc89", "width": 330, "height": 307 },
+    { "file": "public/images/ambassadeurs/marathon-des-sables.jpg", "imageRef": "94a8ff2b09cba416ea017a6396be02bee4d74a37", "width": 183, "height": 195 },
+    { "file": "public/images/ambassadeurs/grand-raid-pyrenees.jpg", "imageRef": "8d108b9c52e6e9b8dc0af237c8582ceee5575ad6", "width": 573, "height": 468 },
+    { "file": "public/images/ambassadeurs/marathon-rome.jpg", "imageRef": "9f6fcf04dd56c1b76f085859a842943e0b6a3134", "width": 204, "height": 206 },
+    { "file": "public/images/ambassadeurs/marathon-biarritz.jpg", "imageRef": "6c2e6237c34432d14b2c60be4416358dd93f5a21", "width": 284, "height": 285 }
+  ]
+}

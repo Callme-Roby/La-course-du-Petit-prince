@@ -1,0 +1,603 @@
+{
+  "$comment": "Page Nos partenaires (2060:7777). Logos : rendu du composant Figma « Logo partenaire » (2060:11585), variante par variante (node = id de la variante) — svg pour les logos vectoriels, png (×2) pour les logos bitmap (conserve le recadrage Figma).",
+  "assets": [
+    {
+      "file": "public/images/partenaires/hero.jpg",
+      "imageRef": "5e1762b1d60123fc961bd84de6534b8c9be7a40b",
+      "width": 1152,
+      "height": 768
+    },
+    {
+      "file": "public/images/partenaires/e-leclerc.png",
+      "node": "2060:11584",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "E.Leclerc"
+    },
+    {
+      "file": "public/images/partenaires/union-bordeaux-begles.svg",
+      "node": "2060:11567",
+      "format": "svg",
+      "width": 230,
+      "height": 230,
+      "label": "Union Bordeaux Bègles"
+    },
+    {
+      "file": "public/images/partenaires/credit-mutuel-du-sud-ouest.svg",
+      "node": "2060:11578",
+      "format": "svg",
+      "width": 230,
+      "height": 54,
+      "label": "Crédit Mutuel du Sud-Ouest"
+    },
+    {
+      "file": "public/images/partenaires/credit-mutuel-arkea.png",
+      "node": "2060:11559",
+      "format": "png",
+      "width": 230,
+      "height": 127,
+      "label": "Crédit Mutuel Arkéa"
+    },
+    {
+      "file": "public/images/partenaires/indyanna-pub.png",
+      "node": "2060:11582",
+      "format": "png",
+      "width": 230,
+      "height": 65,
+      "label": "Indyanna Pub"
+    },
+    {
+      "file": "public/images/partenaires/o2.svg",
+      "node": "2060:11535",
+      "format": "svg",
+      "width": 230,
+      "height": 230,
+      "label": "O2"
+    },
+    {
+      "file": "public/images/partenaires/pro-timing.png",
+      "node": "2060:11563",
+      "format": "png",
+      "width": 230,
+      "height": 46,
+      "label": "Pro Timing"
+    },
+    {
+      "file": "public/images/partenaires/pharma-best.svg",
+      "node": "2060:11530",
+      "format": "svg",
+      "width": 230,
+      "height": 196,
+      "label": "Pharma Best"
+    },
+    {
+      "file": "public/images/partenaires/axa.png",
+      "node": "2060:11551",
+      "format": "png",
+      "width": 230,
+      "height": 217,
+      "label": "AXA"
+    },
+    {
+      "file": "public/images/partenaires/le-campus.png",
+      "node": "2060:11581",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "Le Campus"
+    },
+    {
+      "file": "public/images/partenaires/dupin.png",
+      "node": "2060:11531",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "Dupin"
+    },
+    {
+      "file": "public/images/partenaires/tmso-hinx.png",
+      "node": "2060:11538",
+      "format": "png",
+      "width": 230,
+      "height": 146,
+      "label": "TMSO - HINX"
+    },
+    {
+      "file": "public/images/partenaires/bordeaux-ynov-campus.png",
+      "node": "2060:11544",
+      "format": "png",
+      "width": 230,
+      "height": 126,
+      "label": "Bordeaux Ynov Campus"
+    },
+    {
+      "file": "public/images/partenaires/carmen-conseil.png",
+      "node": "2060:11534",
+      "format": "png",
+      "width": 230,
+      "height": 198,
+      "label": "Carmen Conseil"
+    },
+    {
+      "file": "public/images/partenaires/blanchisserie.png",
+      "node": "2060:11555",
+      "format": "png",
+      "width": 230,
+      "height": 119,
+      "label": "Blanchisserie"
+    },
+    {
+      "file": "public/images/partenaires/ideal-m.png",
+      "node": "2060:11537",
+      "format": "png",
+      "width": 230,
+      "height": 94,
+      "label": "Idéal'M"
+    },
+    {
+      "file": "public/images/partenaires/cartolux-packaging.png",
+      "node": "2060:11580",
+      "format": "png",
+      "width": 230,
+      "height": 65,
+      "label": "Cartolux Packaging"
+    },
+    {
+      "file": "public/images/partenaires/delzongle.png",
+      "node": "2060:11543",
+      "format": "png",
+      "width": 230,
+      "height": 71,
+      "label": "Delzongle"
+    },
+    {
+      "file": "public/images/partenaires/ere-bois.png",
+      "node": "2060:11558",
+      "format": "png",
+      "width": 230,
+      "height": 241,
+      "label": "Ère Bois"
+    },
+    {
+      "file": "public/images/partenaires/cerballiance.png",
+      "node": "2060:11552",
+      "format": "png",
+      "width": 230,
+      "height": 105,
+      "label": "Cerballiance"
+    },
+    {
+      "file": "public/images/partenaires/unikalo.png",
+      "node": "2060:11554",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "Unikalo"
+    },
+    {
+      "file": "public/images/partenaires/olikrom.png",
+      "node": "2060:11539",
+      "format": "png",
+      "width": 230,
+      "height": 68,
+      "label": "Olikrom"
+    },
+    {
+      "file": "public/images/partenaires/wevii.png",
+      "node": "2060:11545",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "WeVii"
+    },
+    {
+      "file": "public/images/partenaires/le-fournil-des-copains.png",
+      "node": "2060:11566",
+      "format": "png",
+      "width": 230,
+      "height": 216,
+      "label": "Le Fournil des Copains"
+    },
+    {
+      "file": "public/images/partenaires/la-lilie-zolie.png",
+      "node": "2060:11565",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "La Lilie Zolie"
+    },
+    {
+      "file": "public/images/partenaires/guarani.png",
+      "node": "2060:11569",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "Guarani"
+    },
+    {
+      "file": "public/images/partenaires/pessac-cartouche.png",
+      "node": "2060:11547",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "Pessac Cartouche"
+    },
+    {
+      "file": "public/images/partenaires/leroy-merlin.png",
+      "node": "2060:11572",
+      "format": "png",
+      "width": 230,
+      "height": 227,
+      "label": "Leroy Merlin"
+    },
+    {
+      "file": "public/images/partenaires/tarkett.svg",
+      "node": "2060:11525",
+      "format": "svg",
+      "width": 230,
+      "height": 67,
+      "label": "Tarkett"
+    },
+    {
+      "file": "public/images/partenaires/netco.png",
+      "node": "2060:11528",
+      "format": "png",
+      "width": 230,
+      "height": 35,
+      "label": "Netco"
+    },
+    {
+      "file": "public/images/partenaires/rpvi.png",
+      "node": "2060:11548",
+      "format": "png",
+      "width": 230,
+      "height": 77,
+      "label": "RPVI"
+    },
+    {
+      "file": "public/images/partenaires/aqmo.png",
+      "node": "2060:11577",
+      "format": "png",
+      "width": 230,
+      "height": 229,
+      "label": "Aqmo"
+    },
+    {
+      "file": "public/images/partenaires/aquanal.png",
+      "node": "2060:11579",
+      "format": "png",
+      "width": 230,
+      "height": 76,
+      "label": "Aquanal"
+    },
+    {
+      "file": "public/images/partenaires/aesio-mutuelle.svg",
+      "node": "2060:11562",
+      "format": "svg",
+      "width": 230,
+      "height": 81,
+      "label": "Aésio Mutuelle"
+    },
+    {
+      "file": "public/images/partenaires/la-chartreuse-de-parme.png",
+      "node": "2060:11524",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "La Chartreuse de Parme"
+    },
+    {
+      "file": "public/images/partenaires/la-ligue-contre-le-cancer.png",
+      "node": "2060:11556",
+      "format": "png",
+      "width": 230,
+      "height": 101,
+      "label": "La Ligue contre le cancer"
+    },
+    {
+      "file": "public/images/partenaires/domaine-clarence-dillon.svg",
+      "node": "2060:11573",
+      "format": "svg",
+      "width": 230,
+      "height": 191,
+      "label": "Domaine Clarence Dillon"
+    },
+    {
+      "file": "public/images/partenaires/sefi.png",
+      "node": "2060:11550",
+      "format": "png",
+      "width": 230,
+      "height": 84,
+      "label": "SEFI"
+    },
+    {
+      "file": "public/images/partenaires/fonds-de-dotation-credit-mutuel-arkea.png",
+      "node": "2060:11536",
+      "format": "png",
+      "width": 230,
+      "height": 132,
+      "label": "Fonds de dotation Crédit Mutuel Arkéa"
+    },
+    {
+      "file": "public/images/partenaires/logi-consulting.png",
+      "node": "2060:11574",
+      "format": "png",
+      "width": 230,
+      "height": 117,
+      "label": "Logi Consulting"
+    },
+    {
+      "file": "public/images/partenaires/cap-h.png",
+      "node": "2060:11561",
+      "format": "png",
+      "width": 230,
+      "height": 88,
+      "label": "Cap H"
+    },
+    {
+      "file": "public/images/partenaires/bois-bersol.svg",
+      "node": "2060:11549",
+      "format": "svg",
+      "width": 230,
+      "height": 74,
+      "label": "Bois Bersol"
+    },
+    {
+      "file": "public/images/partenaires/portets.png",
+      "node": "2060:11570",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "Portets"
+    },
+    {
+      "file": "public/images/partenaires/fitness-park.svg",
+      "node": "2060:11526",
+      "format": "svg",
+      "width": 230,
+      "height": 47,
+      "label": "Fitness Park"
+    },
+    {
+      "file": "public/images/partenaires/seg-fayat.png",
+      "node": "2060:11557",
+      "format": "png",
+      "width": 230,
+      "height": 87,
+      "label": "SEG Fayat"
+    },
+    {
+      "file": "public/images/partenaires/gestform.png",
+      "node": "2060:11542",
+      "format": "png",
+      "width": 230,
+      "height": 55,
+      "label": "Gestform"
+    },
+    {
+      "file": "public/images/partenaires/on-air.png",
+      "node": "2060:11575",
+      "format": "png",
+      "width": 230,
+      "height": 227,
+      "label": "On Air"
+    },
+    {
+      "file": "public/images/partenaires/stockmeier-france.png",
+      "node": "2060:11546",
+      "format": "png",
+      "width": 230,
+      "height": 129,
+      "label": "Stockmeier France"
+    },
+    {
+      "file": "public/images/partenaires/funkie.svg",
+      "node": "2060:11513",
+      "format": "svg",
+      "width": 230,
+      "height": 130,
+      "label": "Funkie"
+    },
+    {
+      "file": "public/images/partenaires/cacolac.png",
+      "node": "2060:11510",
+      "format": "png",
+      "width": 230,
+      "height": 48,
+      "label": "Cacolac"
+    },
+    {
+      "file": "public/images/partenaires/bouvard.svg",
+      "node": "2060:11520",
+      "format": "svg",
+      "width": 230,
+      "height": 167,
+      "label": "Bouvard"
+    },
+    {
+      "file": "public/images/partenaires/seeberger.png",
+      "node": "2060:11533",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "Seeberger"
+    },
+    {
+      "file": "public/images/partenaires/mondelez-international.png",
+      "node": "2060:11523",
+      "format": "png",
+      "width": 230,
+      "height": 57,
+      "label": "Mondelēz International"
+    },
+    {
+      "file": "public/images/partenaires/running-conseil.png",
+      "node": "2060:11516",
+      "format": "png",
+      "width": 230,
+      "height": 148,
+      "label": "Running Conseil"
+    },
+    {
+      "file": "public/images/partenaires/audio-pro.png",
+      "node": "2060:11540",
+      "format": "png",
+      "width": 230,
+      "height": 115,
+      "label": "Audio Pro"
+    },
+    {
+      "file": "public/images/partenaires/fetes-et-bonds.png",
+      "node": "2060:11576",
+      "format": "png",
+      "width": 230,
+      "height": 140,
+      "label": "Fêtes et Bonds"
+    },
+    {
+      "file": "public/images/partenaires/intersport.svg",
+      "node": "2060:11509",
+      "format": "svg",
+      "width": 230,
+      "height": 24,
+      "label": "Intersport"
+    },
+    {
+      "file": "public/images/partenaires/domaine-de-chevalier.svg",
+      "node": "2060:11506",
+      "format": "svg",
+      "width": 230,
+      "height": 64,
+      "label": "Domaine de Chevalier"
+    },
+    {
+      "file": "public/images/partenaires/kiriel.svg",
+      "node": "2060:11517",
+      "format": "svg",
+      "width": 230,
+      "height": 106,
+      "label": "Kiriel"
+    },
+    {
+      "file": "public/images/partenaires/chu-de-bordeaux.png",
+      "node": "2060:11568",
+      "format": "png",
+      "width": 230,
+      "height": 49,
+      "label": "CHU de Bordeaux"
+    },
+    {
+      "file": "public/images/partenaires/truffaut.png",
+      "node": "2060:11532",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "Truffaut"
+    },
+    {
+      "file": "public/images/partenaires/equalia.png",
+      "node": "2060:11564",
+      "format": "png",
+      "width": 230,
+      "height": 135,
+      "label": "Equalia"
+    },
+    {
+      "file": "public/images/partenaires/panier-agenais.png",
+      "node": "2060:11512",
+      "format": "png",
+      "width": 230,
+      "height": 140,
+      "label": "Panier Agenais"
+    },
+    {
+      "file": "public/images/partenaires/grand-banc.png",
+      "node": "2060:11541",
+      "format": "png",
+      "width": 230,
+      "height": 217,
+      "label": "Grand Banc"
+    },
+    {
+      "file": "public/images/partenaires/cadiot-badie.png",
+      "node": "2060:11515",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "Cadiot-Badie"
+    },
+    {
+      "file": "public/images/partenaires/tbm.svg",
+      "node": "2060:11560",
+      "format": "svg",
+      "width": 230,
+      "height": 163,
+      "label": "TBM"
+    },
+    {
+      "file": "public/images/partenaires/super-u.png",
+      "node": "2060:11511",
+      "format": "png",
+      "width": 230,
+      "height": 75,
+      "label": "Super U"
+    },
+    {
+      "file": "public/images/partenaires/les-abatilles.png",
+      "node": "2060:11519",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "Les Abatilles"
+    },
+    {
+      "file": "public/images/partenaires/eurosteo.png",
+      "node": "2060:11527",
+      "format": "png",
+      "width": 230,
+      "height": 161,
+      "label": "Eurosteo"
+    },
+    {
+      "file": "public/images/partenaires/chullanka.png",
+      "node": "2060:11553",
+      "format": "png",
+      "width": 230,
+      "height": 87,
+      "label": "Chullanka"
+    },
+    {
+      "file": "public/images/partenaires/les-petits-bilingues.png",
+      "node": "2060:11521",
+      "format": "png",
+      "width": 230,
+      "height": 230,
+      "label": "Les Petits Bilingues"
+    },
+    {
+      "file": "public/images/partenaires/gironde-le-departement.png",
+      "node": "2060:11505",
+      "format": "png",
+      "width": 230,
+      "height": 67,
+      "label": "Gironde, le Département"
+    },
+    {
+      "file": "public/images/partenaires/region-nouvelle-aquitaine.svg",
+      "node": "2060:11504",
+      "format": "svg",
+      "width": 230,
+      "height": 230,
+      "label": "Région Nouvelle-Aquitaine"
+    },
+    {
+      "file": "public/images/partenaires/ville-de-pessac.svg",
+      "node": "2060:11529",
+      "format": "svg",
+      "width": 230,
+      "height": 88,
+      "label": "Ville de Pessac"
+    }
+  ]
+}
