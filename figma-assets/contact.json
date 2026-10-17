@@ -1,0 +1,6 @@
+{
+  "$comment": "Page Contact (2055:9696). imageRef = hash de remplissage Figma.",
+  "assets": [
+    { "file": "public/images/contact/hero.jpg", "imageRef": "025e4936c8b5e1d2a813df99135d4f3bef8306e0", "width": 1152, "height": 768 }
+  ]
+}
