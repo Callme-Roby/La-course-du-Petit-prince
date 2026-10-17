@@ -1,4 +1,4 @@
-import { routes } from "@/lib/site";
+import { links, routes } from "@/lib/site";
 
 export type FaqItem = {
   question: string;
@@ -17,18 +17,19 @@ export const faq: FaqItem[] = [
   {
     question: "Comment s'inscrire à la course ?",
     answer:
-      "Les inscriptions se font en ligne via HelloAsso, depuis le bouton « Réserver son dossard ».  Vous choisissez votre épreuve, réglez votre inscription et recevez votre confirmation par e-mail.",
+      "Les inscriptions se font en ligne sur ProTiming, depuis le bouton « Réserver son dossard ». Vous choisissez votre épreuve, réglez votre inscription et recevez votre confirmation par e-mail. Des inscriptions sur place restent possibles le jour J dans la limite des dossards disponibles.",
+    link: { label: "Réserver son dossard", href: links.register },
   },
   {
     question: "Quelles épreuves sont proposées ?",
     answer:
-      "Des courses pour les enfants de 6 à 15 ans, des marches et deux trails de 7 km et 17 km, sur un circuit 100 % nature dans la forêt du Bourgailh.",
+      "Des marches de 5 km et 11 km, des courses enfants (6-15 ans) de 1 km et 2 km, deux trails de 7 km et 17 km (17 km dès 18 ans) et un relais par équipe de 3 (dès 11 ans, au moins 2 adultes), sur un circuit 100 % nature dans la forêt du Bourgailh. Départs : 9h00 les marches, 9h30 les courses enfants, 10h30 le trail 17 km, 10h45 le trail 7 km.",
     link: { label: "Découvrir l'événement", href: routes.event },
   },
   {
     question: "Quels sont les tarifs d'inscription ?",
     answer:
-      "Le tarif de chaque épreuve est indiqué sur la page d'inscription HelloAsso. [À COMPLÉTER : détail des tarifs par épreuve]",
+      "Le tarif de chaque épreuve est indiqué sur la page d'inscription ProTiming. À titre indicatif, en 2025 : 5,80 € pour la marche de 5 km et 20,20 € pour le trail de 17 km. L'intégralité des bénéfices des inscriptions est reversée à la recherche.",
   },
   {
     question: "À partir de quel âge les enfants peuvent-ils participer ?",
@@ -38,7 +39,8 @@ export const faq: FaqItem[] = [
   {
     question: "Un certificat médical est-il obligatoire ?",
     answer:
-      "[À COMPLÉTER : conditions de certificat médical / licence / PPS pour les trails chronométrés, et règles pour les marches et courses enfants.]",
+      "Pour être chronométré sur les trails, il faut une licence en cours de validité ou le Pass Prévention Santé (PPS, 5 €, valable un an). Sur le 7 km, le PPS n'est pas obligatoire, mais les coureurs qui n'en ont pas ne sont pas chronométrés. Les conditions complètes figurent dans le règlement de la course.",
+    link: { label: "Lire le règlement", href: links.rules },
   },
   {
     question: "Où et quand retirer mon dossard ?",
@@ -47,7 +49,7 @@ export const faq: FaqItem[] = [
   {
     question: "Comment venir et se garer ?",
     answer:
-      "La course se déroule dans la forêt du Bourgailh, à Pessac. [À COMPLÉTER : adresse exacte, parkings, accès en transports en commun.]",
+      "La course se déroule dans la forêt du Bourgailh, à Pessac (Gironde), le jeudi de l'Ascension. [À COMPLÉTER : parkings et accès en transports en commun.]",
   },
   {
     question: "Que se passe-t-il en cas de mauvais temps ?",

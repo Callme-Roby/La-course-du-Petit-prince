@@ -8,25 +8,41 @@ export const site = {
   shortName: "CDPP",
   description:
     "Marches et trails nature en famille, dans la forêt du Bourgailh à Pessac. 100 % des dons et des fonds sont reversés à la recherche contre les sarcomes.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://lacoursedupetitprince.fr",
-  phone: "06 15 16 17 18",
-  email: "contact@lacoursedupetitprince.fr",
-  /** Date de la prochaine édition — pilote le compte à rebours de l'accueil. */
-  raceDate: "2026-05-22T09:00:00+02:00",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://coursedupetitprince.fr",
+  /** Numéro de la maquette (fictif) — non affiché. Renseigner un vrai numéro puis le réajouter au footer si besoin. */
+  phone: "",
+  email: "coursedupetitprince@gmail.com",
+  /** Siège social (registre RNA / SIRENE) */
+  address: "20 avenue de Bretagne, 33600 Pessac",
+  rna: "W332033684",
+  siret: "923 923 247 00012",
+  /** Date de la prochaine édition (jeudi de l'Ascension, à confirmer par l'association) — pilote le compte à rebours de l'accueil. */
+  raceDate: "2027-05-06T09:00:00+02:00",
+  /** Lieu de la course */
+  venue: "Forêt du Bourgailh, Pessac (33)",
 } as const;
 
 /**
- * Liens externes. À remplacer par les vraies URLs (HelloAsso, réseaux sociaux…).
+ * Liens externes (vérifiés en octobre 2026). Pas de compte Instagram / LinkedIn identifié :
+ * en ajouter ici puis dans `footerNav` si l'association en a.
  */
 export const links = {
-  donate: "https://www.helloasso.com/associations/la-course-du-petit-prince",
-  register: "https://www.helloasso.com/associations/la-course-du-petit-prince",
-  kitty: "https://www.helloasso.com/associations/la-course-du-petit-prince",
-  /** Boutique en ligne (commande / paiement) — à remplacer par l'URL HelloAsso de la boutique. */
-  shop: "https://www.helloasso.com/associations/la-course-du-petit-prince",
-  linkedin: "https://www.linkedin.com/",
-  instagram: "https://www.instagram.com/",
-  facebook: "https://www.facebook.com/",
+  /** Page HelloAsso de l'association : dons, adhésion, boutique, cagnottes des défis */
+  helloasso: "https://www.helloasso.com/associations/la-course-du-petit-prince-la-cdpp",
+  donate: "https://www.helloasso.com/associations/la-course-du-petit-prince-la-cdpp",
+  /** Inscriptions aux épreuves (chronométrage ProTiming) */
+  register: "https://www.protiming.fr/events/8103-la-course-du-petit-prince",
+  /** Cagnottes des défis des ambassadeurs */
+  kitty: "https://www.helloasso.com/associations/la-course-du-petit-prince-la-cdpp",
+  /** Boutique en ligne (commande / paiement) */
+  shop: "https://www.helloasso.com/associations/la-course-du-petit-prince-la-cdpp",
+  membership: "https://www.helloasso.com/associations/la-course-du-petit-prince-la-cdpp/adhesions/adhesion-2026-a-la-cdpp",
+  /** Règlement de la course (PDF hébergé sur l'ancien site) */
+  rules: "https://coursedupetitprince.fr/documents/CdPP%20-%20Reglement.pdf",
+  results: "https://www.protiming.fr/events/8103-la-course-du-petit-prince",
+  volunteerPlatform: "https://www.jeveuxaider.gouv.fr/organisations/32811-la-course-du-petit-prince-la-cdpp",
+  facebook: "https://www.facebook.com/LaCourseDuPetitPrince",
+  youtube: "https://www.youtube.com/playlist?list=PL_jPIoQvpY7-x8xpcMNWBPaJUpSxAvIM0",
 } as const;
 
 export const routes = {
@@ -71,18 +87,21 @@ export const footerNav = [
     items: [
       { label: "Réserver son dossard", href: links.register, external: true },
       { label: "La cagnotte", href: links.kitty, external: true },
+      { label: "Adhérer à la CdPP", href: links.membership, external: true },
+      { label: "Règlement de la course", href: links.rules, external: true },
     ],
   },
   {
     title: "Nous contacter",
-    items: [{ label: site.phone, href: `tel:${site.phone.replace(/\s/g, "")}`, external: false }],
+    items: [
+      { label: site.email, href: `mailto:${site.email}`, external: true },
+    ],
   },
   {
     title: "Réseaux sociaux",
     items: [
-      { label: "LinkedIn", href: links.linkedin, external: true },
-      { label: "Instagram", href: links.instagram, external: true },
       { label: "Facebook", href: links.facebook, external: true },
+      { label: "YouTube", href: links.youtube, external: true },
     ],
   },
   {

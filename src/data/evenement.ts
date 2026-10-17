@@ -1,3 +1,4 @@
+import { links } from "@/lib/site";
 import type { GalleryImage } from "@/components/sections/GalleryMosaic";
 
 export type Album = {
@@ -32,17 +33,20 @@ export const eventGallery: GalleryImage[] = [
 
 export type ResultDoc = {
   label: string;
-  /**
-   * PDF des résultats. Les fichiers ne sont pas encore fournis :
-   * les déposer dans /public/resultats/ sous ces noms.
-   */
+  /** PDF local (/public/resultats/…) ou page de résultats en ligne. */
   href: string;
+  /** true = fichier PDF téléchargeable ; false = page de résultats externe */
+  pdf?: boolean;
 };
 
-/** Section "Les résultats" (2063:15061). */
+/**
+ * Section "Les résultats" (2063:15061).
+ * Les classements sont publiés par le chronométreur ProTiming. Pour proposer des PDF,
+ * les déposer dans /public/resultats/ et passer `pdf: true`.
+ */
 export const results: ResultDoc[] = [
-  { label: "Résultat - Trail 17 km - 2025", href: "/resultats/trail-17-km-2025.pdf" },
-  { label: "Résultat - Trail 7 km - 2025", href: "/resultats/trail-7-km-2025.pdf" },
-  { label: "Résultat - Marches - 2025", href: "/resultats/marches-2025.pdf" },
-  { label: "Résultat - Courses enfants - 2025", href: "/resultats/courses-enfants-2025.pdf" },
+  { label: "Résultats - Trail 17 km - 2026", href: links.results },
+  { label: "Résultats - Trail 7 km - 2026", href: links.results },
+  { label: "Résultats - Marches - 2026", href: links.results },
+  { label: "Résultats - Courses enfants - 2026", href: links.results },
 ];

@@ -22,7 +22,11 @@ export default function Faq({ items = defaultItems, title = "Foire aux questions
             <div className={`p-xs ${styles.answer}`}>
               <p>{item.answer}</p>
               {item.link && (
-                <Link href={item.link.href} className={styles.link}>
+                <Link
+                  href={item.link.href}
+                  className={styles.link}
+                  {...(/^https?:/.test(item.link.href) ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                >
                   {item.link.label} →
                 </Link>
               )}

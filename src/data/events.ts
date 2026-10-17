@@ -32,10 +32,10 @@ export const events: CdppEvent[] = [
     status: "full",
   },
   {
-    id: "course-petit-prince-2026",
-    date: "2026-05-22",
+    id: "course-petit-prince-2027",
+    date: "2027-05-06",
     title: "La course du Petit Prince",
-    price: "20 €",
+    price: "Dès 5,80 €",
     status: "open",
     href: links.register,
     featured: true,

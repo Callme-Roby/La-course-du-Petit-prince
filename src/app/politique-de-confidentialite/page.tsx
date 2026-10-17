@@ -20,8 +20,8 @@ export default function PolitiqueConfidentialitePage() {
       <LegalBody updated="[À COMPLÉTER : date]">
         <LegalSection title="Responsable du traitement">
           <p>
-            Les données personnelles collectées sur ce site sont traitées par l’association <strong>{site.name}</strong>
-            , <Todo>adresse postale du siège</Todo>, représentée par <Todo>nom du / de la représentant·e légal·e</Todo>.
+            Les données personnelles collectées sur ce site sont traitées par l’association <strong>La Course du Petit Prince – La CdPP</strong>
+            , {site.address}, représentée par <Todo>nom du / de la représentant·e légal·e</Todo>.
           </p>
           <p>
             Contact : <a href={`mailto:${site.email}`}>{site.email}</a>
@@ -39,9 +39,9 @@ export default function PolitiqueConfidentialitePage() {
               <strong>Newsletter</strong> : adresse e-mail ;
             </li>
             <li>
-              <strong>Inscriptions et dons</strong> : ils sont réalisés sur la plateforme HelloAsso, qui collecte et
-              traite ces données en tant que responsable de traitement distinct (voir sa propre politique de
-              confidentialité).
+              <strong>Inscriptions, dons, adhésions et achats</strong> : ils sont réalisés sur les plateformes ProTiming
+              (inscriptions) et HelloAsso (dons, adhésions, boutique), qui collectent et traitent ces données en tant
+              que responsables de traitement distincts (voir leurs propres politiques de confidentialité).
             </li>
           </ul>
         </LegalSection>

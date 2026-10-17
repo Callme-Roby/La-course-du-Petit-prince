@@ -26,7 +26,7 @@ export const engagementWays: EngagementWay[] = [
 /** Section "Participer en 3 étapes" (2060:7435). */
 export const participationSteps: string[] = [
   "Je choisis. Course enfant, marche familiale ou trail de 7 ou 17 km : vous sélectionnez l'épreuve et la catégorie qui vous correspondent.",
-  "Je m'inscris. En quelques clics, en ligne via HelloAsso. Vous recevez votre confirmation et toutes les infos pratiques directement par e-mail.",
+  "Je m'inscris. En quelques clics, en ligne via ProTiming. Vous recevez votre confirmation et toutes les infos pratiques directement par e-mail.",
   "Je cours, je donne. Le jour J, vous profitez d'une journée nature et conviviale dans la forêt du Bourgailh et 100 % de votre participation part à la recherche.",
 ];
 

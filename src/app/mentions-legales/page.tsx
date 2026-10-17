@@ -21,23 +21,20 @@ export default function MentionsLegalesPage() {
         <LegalSection title="Éditeur du site">
           <p>
             Le site <strong>{site.url.replace(/^https?:\/\//, "")}</strong> est édité par l’association{" "}
-            <strong>{site.name}</strong>, association loi 1901.
+            <strong>La Course du Petit Prince – La CdPP</strong>, association loi 1901 déclarée le 18 août 2023.
           </p>
           <ul>
             <li>
-              Siège social : <Todo>adresse postale du siège</Todo>
+              Siège social : {site.address}
             </li>
             <li>
-              Numéro RNA : <Todo>W…</Todo>
+              Numéro RNA : {site.rna}
             </li>
             <li>
-              SIRET : <Todo>numéro SIRET, le cas échéant</Todo>
+              SIRET : {site.siret}
             </li>
             <li>
               E-mail : <a href={`mailto:${site.email}`}>{site.email}</a>
-            </li>
-            <li>
-              Téléphone : <a href={`tel:${site.phone.replace(/\s/g, "")}`}>{site.phone}</a>
             </li>
             <li>
               Directeur de la publication : <Todo>nom et qualité (ex. président·e de l’association)</Todo>
@@ -83,12 +80,12 @@ export default function MentionsLegalesPage() {
             à tout moment, notamment en cas de changement d’organisation de l’événement.
           </p>
           <p>
-            Le site contient des liens vers des sites tiers (HelloAsso, réseaux sociaux, partenaires). L’association
+            Le site contient des liens vers des sites tiers (HelloAsso, ProTiming, réseaux sociaux, partenaires). L’association
             n’exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu.
           </p>
           <p>
-            Les inscriptions et les dons sont traités par la plateforme HelloAsso, selon ses propres conditions
-            générales.
+            Les inscriptions aux épreuves sont traitées par ProTiming et les dons, adhésions et achats par
+            HelloAsso, selon leurs propres conditions générales.
           </p>
         </LegalSection>
 
