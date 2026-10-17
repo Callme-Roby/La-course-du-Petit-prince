@@ -1,0 +1,47 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-l3);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacer-s2);
+  padding: var(--spacer-s2) var(--spacer-m2) var(--spacer-s2) 0;
+  border-top: 1px solid var(--color-stroke-default);
+}
+
+.label {
+  min-width: 0;
+  color: var(--color-border-secondary);
+  overflow-wrap: anywhere;
+}
+
+/* Lien souligné au repos (maquette) ; le soulignement animé du bouton prend le relais au survol. */
+.cta {
+  flex-shrink: 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cta:hover,
+.cta:focus-visible {
+  text-decoration: none;
+}
+
+@media (max-width: 560px) {
+  .row {
+    padding-right: 0;
+  }
+
+  .cta {
+    padding-inline: 0;
+  }
+}

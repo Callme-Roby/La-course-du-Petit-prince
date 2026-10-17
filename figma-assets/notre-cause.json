@@ -1,0 +1,14 @@
+{
+  "$comment": "Images de la page Notre cause (2055:6987). imageRef = hash de remplissage Figma.",
+  "assets": [
+    { "file": "public/images/notre-cause/hero.jpg", "imageRef": "b6964bb936c3d04ef18096d918fbcb3cf0d8c34c", "width": 512, "height": 768 },
+    { "file": "public/images/notre-cause/symposium-2025.jpg", "imageRef": "dc4c600654802c9cadd9b17a1ebce95a2000b63a", "width": 927, "height": 865 },
+    { "file": "public/images/notre-cause/cheque-100000.jpg", "imageRef": "6f4949a67fa417236fec990e2259e6a85e2728ac", "width": 920, "height": 689 },
+    { "file": "public/images/notre-cause/rapport-mi-parcours.jpg", "imageRef": "d5884876c649517a38dd86f0499115e332592af2", "width": 1567, "height": 699 },
+    { "file": "public/images/notre-cause/sab-members.jpg", "imageRef": "524f09d44e80c95329c19a0b528a17e66310078e", "width": 724, "height": 748 },
+    { "file": "public/images/notre-cause/anniversaire-condor.jpg", "imageRef": "c49a05557367eef70ec6b30f6981f4a96020a1fd", "width": 266, "height": 264 },
+    { "file": "public/images/notre-cause/symposium-2023.jpg", "imageRef": "0be25874b6ff4f94006e1c3c447e555f7c46da38", "width": 800, "height": 600 },
+    { "file": "public/images/notre-cause/stand-bergonie.jpg", "imageRef": "0140a69725760583d6945f04d2464c955e4eef64", "width": 800, "height": 692 },
+    { "file": "public/images/notre-cause/highly-cited-2023.jpg", "imageRef": "6ed173ab43acb9b898a8fd5704a3f0b40c773a46", "width": 800, "height": 418 }
+  ]
+}

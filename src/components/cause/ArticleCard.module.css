@@ -1,0 +1,38 @@
+.card {
+  min-width: 0;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-xs1);
+}
+
+/* 446 × 480 à 1920px */
+.image {
+  aspect-ratio: 446 / 480;
+  overflow: hidden;
+  margin-bottom: var(--spacer-xs1);
+}
+
+.image img {
+  transition: transform 0.6s var(--ease-out);
+}
+
+a.link:hover .image img,
+a.link:focus-visible .image img {
+  transform: scale(1.04);
+}
+
+.title {
+  color: #000;
+}
+
+a.link:hover .title {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.date {
+  color: var(--color-text-tertiary);
+}
