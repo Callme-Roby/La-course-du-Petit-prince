@@ -1,0 +1,26 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacer-l3);
+  padding: var(--gap-xhuge) clamp(16px, 3.34vw, 64px);
+  background: var(--color-yellow-light);
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-s2);
+  color: var(--color-text-primary);
+}
+
+.text h2 {
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  .text br {
+    display: none;
+  }
+}

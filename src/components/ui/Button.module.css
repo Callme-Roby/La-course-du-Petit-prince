@@ -1,0 +1,155 @@
+.button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-shrink: 0;
+  padding: var(--spacer-s1) var(--spacer-m2);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  font-family: var(--font-secondary);
+  font-size: var(--fs-p-s);
+  line-height: var(--lh-p);
+  text-align: center;
+  white-space: nowrap;
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease,
+    opacity 0.25s ease;
+}
+
+.label {
+  position: relative;
+}
+
+/* primary — fond jaune, "fond bleu" qui se déploie depuis le centre au survol */
+.primary {
+  overflow: hidden;
+  background: var(--color-yellow);
+  color: var(--color-text-primary);
+}
+
+.fill {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--color-blue);
+  opacity: 0;
+  transform: scale(0.02);
+  transition:
+    transform 0.45s var(--ease-out),
+    opacity 0.2s ease;
+}
+
+.primary:hover .fill,
+.primary:focus-visible .fill {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* secondary — contour simple */
+.secondary.light {
+  border-color: var(--color-text-alternate);
+  color: var(--color-text-alternate);
+}
+
+.secondary.dark {
+  border-color: var(--color-border-secondary);
+  color: var(--color-border-secondary);
+}
+
+.secondary:hover {
+  background: var(--color-black-25);
+}
+
+.secondary:active {
+  border-color: var(--color-stroke-default);
+  color: var(--color-stroke-default);
+  opacity: 0.65;
+}
+
+/* glass — header / hero */
+.glass {
+  border-color: var(--color-text-alternate);
+  background: var(--color-black-25);
+  color: var(--color-text-alternate);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.glass:hover {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.glass:active {
+  border-color: var(--color-stroke-default);
+  color: var(--color-stroke-default);
+  opacity: 0.65;
+}
+
+/* tertiary — lien texte souligné au survol */
+.tertiary {
+  flex-direction: column;
+  gap: 0;
+  padding: var(--spacer-s2) var(--spacer-m2);
+  border: 0;
+  border-radius: var(--radius-pill);
+}
+
+.tertiary.light {
+  color: var(--color-text-alternate);
+}
+
+.tertiary.dark {
+  color: var(--color-border-secondary);
+}
+
+.tertiary .label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s var(--ease-out);
+}
+
+.tertiary:hover .label::after,
+.tertiary:focus-visible .label::after {
+  transform: scaleX(1);
+}
+
+.tertiary:active {
+  color: var(--color-stroke-default);
+  opacity: 0.65;
+}
+
+/* nav — lien de navigation */
+.nav {
+  padding: var(--spacer-xs2) var(--spacer-s2);
+  border: 0;
+  border-radius: var(--radius-pill);
+}
+
+.nav.light {
+  color: var(--color-text-alternate);
+}
+
+.nav.dark {
+  color: var(--color-text-primary);
+}
+
+.nav:hover,
+.nav[aria-current="page"] {
+  color: var(--color-yellow);
+}
+
+.nav:active {
+  opacity: 0.65;
+}

@@ -1,0 +1,23 @@
+.paragraphe {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--gap-large) var(--spacer-s2);
+  align-items: start;
+}
+
+.title {
+  letter-spacing: -0.025em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xlarge);
+}
+
+@media (max-width: 900px) {
+  .paragraphe {
+    grid-template-columns: 1fr;
+  }
+}

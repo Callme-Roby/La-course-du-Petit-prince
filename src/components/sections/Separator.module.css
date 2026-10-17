@@ -1,0 +1,7 @@
+.default {
+  height: var(--separator);
+}
+
+.small {
+  height: var(--separator-s);
+}

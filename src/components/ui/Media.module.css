@@ -1,0 +1,9 @@
+.media {
+  position: relative;
+  overflow: hidden;
+  background: #e9e7e1;
+}
+
+.img {
+  object-fit: cover;
+}

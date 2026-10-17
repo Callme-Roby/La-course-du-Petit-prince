@@ -1,0 +1,22 @@
+.button {
+  flex-shrink: 0;
+  width: 54px;
+  height: 54px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  transition:
+    background-color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.button:hover {
+  background: var(--color-black-25);
+}
+
+.button:disabled {
+  opacity: 0.35;
+  cursor: default;
+  background: transparent;
+}

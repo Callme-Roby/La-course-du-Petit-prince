@@ -1,0 +1,33 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: end;
+  gap: var(--spacer-s2);
+  width: 100%;
+}
+
+.title {
+  align-self: start;
+}
+
+.text {
+  align-self: start;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-large);
+}
+
+@media (max-width: 900px) {
+  .header {
+    grid-template-columns: 1fr;
+    gap: var(--spacer-m2);
+  }
+
+  .actions {
+    justify-content: flex-start;
+  }
+}
