@@ -17,9 +17,7 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: site.name,
     description: site.description,
-  },
-  icons: {
-    icon: "/logo-cdpp-mark.svg",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: site.name }],
   },
 };
 
