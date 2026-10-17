@@ -29,28 +29,28 @@ export const races: Race[] = [
     tag: "6-15 ans",
     title: "Courses enfants",
     subtitle: "Circuits 100% nature",
-    image: { src: "/images/home/course-enfants.jpg", alt: "Des enfants courent sous la pluie au départ de la course" },
+    image: { src: "/images/home/course-enfants.jpg", alt: "Des enfants courent sous la pluie au départ de la course", position: "32% 50%" },
   },
   {
     id: "marches",
     tag: "Famille",
     title: "Les marches",
     subtitle: "Familiale & sportive",
-    image: { src: "/images/home/marches.jpg", alt: "Marcheurs déguisés en super-héros, cape rose sur le dos" },
+    image: { src: "/images/home/marches.jpg", alt: "Marcheurs déguisés en super-héros, cape rose sur le dos", position: "45% 50%" },
   },
   {
     id: "trail-7km",
     tag: "Trail",
     title: "Trail 7 Km",
     subtitle: "Accessible (+150m D+)",
-    image: { src: "/images/home/trail-7km.jpg", alt: "Coureur du trail de 7 km dossard sur le ventre" },
+    image: { src: "/images/home/trail-7km.jpg", alt: "Coureur du trail de 7 km dans la dernière ligne droite, devant l’arche d’arrivée", position: "55% 50%" },
   },
   {
     id: "trail-17km",
     tag: "Trail",
     title: "Trail 17 Km",
     subtitle: "Sportif (+420m D+)",
-    image: { src: "/images/home/trail-17km.jpg", alt: "Traileuse concentrée au départ du 17 km", position: "8% 50%" },
+    image: { src: "/images/home/trail-17km.jpg", alt: "Coureuses et coureurs sur la ligne de départ du trail de 17 km", position: "30% 50%" },
   },
 ];
 
