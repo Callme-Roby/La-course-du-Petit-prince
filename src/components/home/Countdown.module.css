@@ -1,0 +1,39 @@
+/* 1920 × 38, fond blanc 65 % */
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacer-m1);
+  min-height: 38px;
+  padding: var(--spacer-xs1) var(--page-gutter);
+  background: rgba(255, 255, 255, 0.65);
+  color: #000;
+  font-size: var(--fs-p-s);
+  line-height: var(--lh-p);
+  white-space: nowrap;
+}
+
+.value {
+  min-width: 13ch;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 1180px) {
+  .bar {
+    min-height: 34px;
+    gap: var(--spacer-xs2);
+    padding-block: 2px;
+    font-size: var(--fs-p-xs);
+  }
+}
+
+@media (max-width: 420px) {
+  .bar {
+    font-size: 13px;
+  }
+}

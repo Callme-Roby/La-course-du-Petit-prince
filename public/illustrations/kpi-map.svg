@@ -1,0 +1,22 @@
+<svg width="573" height="364" viewBox="0 0 573 364" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_2137_1048)">
+<rect width="572.984" height="364" fill="url(#pattern0_2137_1048)" fill-opacity="0.5"/>
+<path d="M533.783 7.27539L567.17 19.7764L533.158 39.5869L479.229 66.8008L383.137 80.2881C383.053 80.2998 382.97 80.3159 382.889 80.3359L382.647 80.4082L335.167 97.2822C334.994 97.3436 334.829 97.4241 334.674 97.5215L334.522 97.624L278.003 139.206C277.571 139.523 277.255 139.97 277.097 140.478L277.039 140.699L247.225 280.596L204.385 312.484H145.495L76.1855 274.527C75.1497 273.96 73.8575 274.195 73.0879 275.091L24.9844 331.081L50.3643 293.07C50.5104 292.851 50.6213 292.611 50.6924 292.357L61.8496 252.569L86.3223 216.309L128.764 185.705H173.021C173.214 185.705 173.406 185.683 173.594 185.639L214.636 175.997C215.229 175.858 215.751 175.507 216.104 175.01L243.026 137.056L284.169 121.257C284.73 121.041 285.195 120.631 285.479 120.101L304.462 84.5586L347.06 59.3535L396.67 44.1738C396.902 44.1029 397.122 43.9995 397.324 43.8652L430.85 21.5479L487.162 2.54199L533.783 7.27539Z" stroke="#FFD000" stroke-width="5" stroke-linejoin="round"/>
+<rect x="-0.015625" y="-0.280273" width="110" height="75" fill="white"/>
+<rect x="74.9844" y="74.7197" width="75" height="75" fill="white"/>
+<path d="M97.0174 310.72L150.05 363.753H43.9844L97.0174 310.72Z" fill="white"/>
+<rect x="497.984" y="135.72" width="75" height="228" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_2137_1048">
+<rect width="572.984" height="364" fill="white"/>
+</clipPath>
+<pattern id="pattern0_2137_1048" patternUnits="userSpaceOnUse" patternTransform="matrix(21 0 0 21 -6.34505e-07 0)" preserveAspectRatio="none" viewBox="-6.34505e-07 0 21 21" width="1" height="1">
+<use xlink:href="#pattern0_2137_1048_inner" transform="translate(-21 -21)"/>
+<use xlink:href="#pattern0_2137_1048_inner" transform="translate(0 -21)"/>
+<use xlink:href="#pattern0_2137_1048_inner" transform="translate(-21 0)"/>
+<g id="pattern0_2137_1048_inner">
+<line x1="21.7071" y1="0.707107" x2="0.707107" y2="21.7071" stroke="#FFD000" stroke-width="2"/>
+</g>
+</pattern></defs>
+</svg>

@@ -1,0 +1,78 @@
+/* 1920 × 1080 : plein écran */
+.hero {
+  --p: 0;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  max-width: var(--page-max);
+  height: 100vh;
+  height: 100svh;
+  min-height: 560px;
+  max-height: 1080px;
+  margin-inline: auto;
+  overflow: hidden;
+}
+
+/* "IMG HERO" : marge 0 → gouttière (32px) et rayon 0 → 8px selon --p */
+.frame {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: #2c3a2e;
+  /* clip-path plutôt que inset/margin : pas de recalcul de mise en page au scroll */
+  clip-path: inset(calc(var(--p) * var(--page-gutter)) round calc(var(--p) * var(--radius-sm)));
+}
+
+.img {
+  object-fit: cover;
+}
+
+/* Calque Figma : noir 45 % + dégradé radial jaune → bleu à 20 % depuis le coin haut droit */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      120% 160% at 100% 0%,
+      rgba(251, 204, 98, 0.2) 0%,
+      rgba(196, 180, 112, 0.2) 13%,
+      rgba(141, 156, 126, 0.2) 26%,
+      rgba(86, 131, 140, 0.2) 39%,
+      rgba(59, 119, 147, 0.2) 46%,
+      rgba(31, 107, 154, 0.2) 52%
+    ),
+    rgba(0, 0, 0, 0.45);
+}
+
+/* Bloc "Hero" : x 96px, bas à 96px */
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xxlarge);
+  width: 100%;
+  padding: 0 clamp(24px, 5vw, 96px) clamp(48px, 5vw, 96px);
+}
+
+.title {
+  max-width: 1207px;
+  color: var(--color-white);
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap-large);
+}
+
+@media (max-width: 560px) {
+  .content {
+    gap: var(--spacer-l1);
+  }
+
+  .ctas {
+    gap: var(--spacer-s1);
+  }
+}

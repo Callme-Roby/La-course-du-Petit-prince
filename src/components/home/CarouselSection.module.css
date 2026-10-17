@@ -1,0 +1,58 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-l3);
+}
+
+.arrows {
+  display: flex;
+  gap: var(--spacer-xs2);
+}
+
+/* "list card" : 4 cartes de 446px visibles à 1920px, gouttière 24px */
+.track {
+  --per-view: 4;
+  display: flex;
+  gap: var(--gap-large);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  /* laisse la place au contour de focus des cartes */
+  margin: -4px;
+  padding: 4px;
+  scroll-padding-inline: 4px;
+}
+
+.track::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  flex: 0 0 calc((100% - (var(--per-view) - 1) * var(--gap-large)) / var(--per-view));
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+@media (max-width: 1280px) {
+  .track {
+    --per-view: 3;
+  }
+}
+
+@media (max-width: 900px) {
+  .track {
+    --per-view: 2.2;
+  }
+}
+
+@media (max-width: 560px) {
+  .track {
+    --per-view: 1.15;
+    gap: var(--spacer-s2);
+  }
+
+  .item {
+    flex-basis: calc((100% - var(--spacer-s2)) / var(--per-view));
+  }
+}

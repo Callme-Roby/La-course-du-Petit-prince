@@ -1,0 +1,56 @@
+/* 1920 × 452 ; illustration 1856 × 551 qui déborde sous la section */
+.section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: clamp(280px, 23.55vw, 452px);
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: var(--page-gutter);
+  width: calc(100% - 2 * var(--page-gutter));
+  height: auto;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xxlarge);
+  width: 100%;
+  max-width: 1207px;
+  text-align: center;
+}
+
+.title {
+  color: #000;
+}
+
+@media (max-width: 900px) {
+  .br {
+    display: none;
+  }
+
+  .content {
+    gap: var(--spacer-l1);
+  }
+
+  .section {
+    overflow: hidden;
+    padding-block: var(--spacer-l1);
+  }
+
+  /* l'illustration passe derrière le texte, élargie pour garder les motifs visibles */
+  .bg {
+    top: 50%;
+    left: -30%;
+    width: 160%;
+    max-width: none;
+    transform: translateY(-50%);
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$comment": "Page Accueil (2020:898). imageRef = hash de remplissage Figma. Les visuels produits sont dans boutique.json.",
+  "assets": [
+    { "file": "public/images/home/hero.jpg", "imageRef": "d69c06519f685b3d7902f05d3584491023469736", "width": 1152, "height": 768 },
+    { "file": "public/images/home/course-enfants.jpg", "imageRef": "270777c60546cab71818352441890f7bc9f1d3c5", "width": 1152, "height": 768 },
+    { "file": "public/images/home/marches.jpg", "imageRef": "61504d829d177ab2b9dce68f16497cd1a6520746", "width": 1152, "height": 768 },
+    { "file": "public/images/home/trail-7km.jpg", "imageRef": "8673d56b8486d0175d430ea61cd19b56d7ea0d7e", "width": 1152, "height": 768 },
+    { "file": "public/images/home/trail-17km.jpg", "imageRef": "488e1852a21ff6ed02b3e857616aec192e6c5116", "width": 1152, "height": 768 },
+    { "file": "public/images/home/galerie-1.jpg", "imageRef": "017e05173f054b5e4a5561af48184b6f3ca409c4", "width": 1152, "height": 768 },
+    { "file": "public/images/home/galerie-2.jpg", "imageRef": "58a87ab37e18dc1d85f9e5586ba9f8704bf0656f", "width": 1152, "height": 768 },
+    { "file": "public/images/home/galerie-3.jpg", "imageRef": "512d5a48ef80aaa8149868c38b331aa573a6250a", "width": 1149, "height": 768 },
+    { "file": "public/images/home/galerie-4.jpg", "imageRef": "025e4936c8b5e1d2a813df99135d4f3bef8306e0", "width": 1152, "height": 768 }
+  ]
+}

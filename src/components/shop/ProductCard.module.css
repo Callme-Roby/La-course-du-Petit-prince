@@ -1,0 +1,53 @@
+.card {
+  min-width: 0;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-xs1);
+}
+
+/* 446 × 292 à 1920px */
+.image {
+  aspect-ratio: 446 / 292;
+}
+
+.image img {
+  transition: transform 0.6s var(--ease-out);
+}
+
+.link:hover .image img,
+.link:focus-visible .image img {
+  transform: scale(1.04);
+}
+
+.body {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacer-xs1);
+}
+
+.text {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.name {
+  color: #000;
+}
+
+.link:hover .name {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.stock {
+  color: var(--color-text-tertiary);
+}
+
+.price {
+  flex-shrink: 0;
+  color: #000;
+  white-space: nowrap;
+}

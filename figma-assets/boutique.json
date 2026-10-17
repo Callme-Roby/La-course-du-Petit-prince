@@ -1,0 +1,16 @@
+{
+  "$comment": "Page Boutique (2055:9138) + carrousel boutique de l'accueil. imageRef = hash de remplissage Figma (calque visible le plus haut).",
+  "assets": [
+    { "file": "public/images/boutique/hero.jpg", "imageRef": "3fb7a7397c18b359ec7c93b9c4279786fb5c2295", "width": 1152, "height": 768 },
+    { "file": "public/images/boutique/pins-2026.jpg", "imageRef": "76340ce53a7170172285b4679d55b6dee73fcc6a", "width": 1086, "height": 1448 },
+    { "file": "public/images/boutique/pins-2025.jpg", "imageRef": "05f16c2ca352a495f53eb9eafef3e86c3a2db0c8", "width": 2048, "height": 2048 },
+    { "file": "public/images/boutique/pins-2024.jpg", "imageRef": "d7249cdd37a1f841018af89fbe1ac2d6e9ab0376", "width": 1792, "height": 2390 },
+    { "file": "public/images/boutique/pins-2023.jpg", "imageRef": "2dfec6ab4c10afc97ff27ceff3aa81eb4dd0ecb1", "width": 2048, "height": 2048 },
+    { "file": "public/images/boutique/porte-cles.jpg", "imageRef": "ecc5af0d2ac5b03f3d41b4a5a211eac31aac3176", "width": 300, "height": 300 },
+    { "file": "public/images/boutique/petit-prince-rose.jpg", "imageRef": "24799e36d57f2a173acfa3fe71c17361d56cfcfd", "width": 300, "height": 300 },
+    { "file": "public/images/boutique/petit-prince-renard.jpg", "imageRef": "2c07dac350cecabea7db694d9773ac287c512e09", "width": 300, "height": 300 },
+    { "file": "public/images/boutique/petit-prince-avion.jpg", "imageRef": "6cb7c16ed9e1c3f961f94ca6deeafe87af1f6fbf", "width": 300, "height": 300 },
+    { "file": "public/images/boutique/ombre-rose.jpg", "imageRef": "60c23ceb4ce0f005ee2bc899bfeae86f31d83af2", "width": 300, "height": 300 },
+    { "file": "public/images/boutique/ombre-renard.jpg", "imageRef": "9c2fb09e25bcc95cab725e66064025aff8f66787", "width": 300, "height": 300 }
+  ]
+}

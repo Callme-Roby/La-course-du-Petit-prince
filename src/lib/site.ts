@@ -22,6 +22,8 @@ export const links = {
   donate: "https://www.helloasso.com/associations/la-course-du-petit-prince",
   register: "https://www.helloasso.com/associations/la-course-du-petit-prince",
   kitty: "https://www.helloasso.com/associations/la-course-du-petit-prince",
+  /** Boutique en ligne (commande / paiement) — à remplacer par l'URL HelloAsso de la boutique. */
+  shop: "https://www.helloasso.com/associations/la-course-du-petit-prince",
   linkedin: "https://www.linkedin.com/",
   instagram: "https://www.instagram.com/",
   facebook: "https://www.facebook.com/",

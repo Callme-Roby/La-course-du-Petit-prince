@@ -18,6 +18,11 @@
   top: 38px;
 }
 
+/* Bande masquée (course passée) : le header remonte en haut de page */
+:global(body:not(:has([data-countdown]))) .onHero {
+  top: 0;
+}
+
 .logo {
   position: relative;
   z-index: 2;
