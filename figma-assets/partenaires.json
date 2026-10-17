@@ -16,17 +16,17 @@
       "label": "E.Leclerc"
     },
     {
-      "file": "public/images/partenaires/union-bordeaux-begles.svg",
+      "file": "public/images/partenaires/union-bordeaux-begles.png",
       "node": "2060:11567",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 230,
       "label": "Union Bordeaux Bègles"
     },
     {
-      "file": "public/images/partenaires/credit-mutuel-du-sud-ouest.svg",
+      "file": "public/images/partenaires/credit-mutuel-du-sud-ouest.png",
       "node": "2060:11578",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 54,
       "label": "Crédit Mutuel du Sud-Ouest"
@@ -48,9 +48,9 @@
       "label": "Indyanna Pub"
     },
     {
-      "file": "public/images/partenaires/o2.svg",
+      "file": "public/images/partenaires/o2.png",
       "node": "2060:11535",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 230,
       "label": "O2"
@@ -64,9 +64,9 @@
       "label": "Pro Timing"
     },
     {
-      "file": "public/images/partenaires/pharma-best.svg",
+      "file": "public/images/partenaires/pharma-best.png",
       "node": "2060:11530",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 196,
       "label": "Pharma Best"
@@ -232,9 +232,9 @@
       "label": "Leroy Merlin"
     },
     {
-      "file": "public/images/partenaires/tarkett.svg",
+      "file": "public/images/partenaires/tarkett.png",
       "node": "2060:11525",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 67,
       "label": "Tarkett"
@@ -272,9 +272,9 @@
       "label": "Aquanal"
     },
     {
-      "file": "public/images/partenaires/aesio-mutuelle.svg",
+      "file": "public/images/partenaires/aesio-mutuelle.png",
       "node": "2060:11562",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 81,
       "label": "Aésio Mutuelle"
@@ -296,9 +296,9 @@
       "label": "La Ligue contre le cancer"
     },
     {
-      "file": "public/images/partenaires/domaine-clarence-dillon.svg",
+      "file": "public/images/partenaires/domaine-clarence-dillon.png",
       "node": "2060:11573",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 191,
       "label": "Domaine Clarence Dillon"
@@ -336,9 +336,9 @@
       "label": "Cap H"
     },
     {
-      "file": "public/images/partenaires/bois-bersol.svg",
+      "file": "public/images/partenaires/bois-bersol.png",
       "node": "2060:11549",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 74,
       "label": "Bois Bersol"
@@ -352,9 +352,9 @@
       "label": "Portets"
     },
     {
-      "file": "public/images/partenaires/fitness-park.svg",
+      "file": "public/images/partenaires/fitness-park.png",
       "node": "2060:11526",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 47,
       "label": "Fitness Park"
@@ -392,9 +392,9 @@
       "label": "Stockmeier France"
     },
     {
-      "file": "public/images/partenaires/funkie.svg",
+      "file": "public/images/partenaires/funkie.png",
       "node": "2060:11513",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 130,
       "label": "Funkie"
@@ -408,9 +408,9 @@
       "label": "Cacolac"
     },
     {
-      "file": "public/images/partenaires/bouvard.svg",
+      "file": "public/images/partenaires/bouvard.png",
       "node": "2060:11520",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 167,
       "label": "Bouvard"
@@ -456,25 +456,25 @@
       "label": "Fêtes et Bonds"
     },
     {
-      "file": "public/images/partenaires/intersport.svg",
+      "file": "public/images/partenaires/intersport.png",
       "node": "2060:11509",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 24,
       "label": "Intersport"
     },
     {
-      "file": "public/images/partenaires/domaine-de-chevalier.svg",
+      "file": "public/images/partenaires/domaine-de-chevalier.png",
       "node": "2060:11506",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 64,
       "label": "Domaine de Chevalier"
     },
     {
-      "file": "public/images/partenaires/kiriel.svg",
+      "file": "public/images/partenaires/kiriel.png",
       "node": "2060:11517",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 106,
       "label": "Kiriel"
@@ -528,9 +528,9 @@
       "label": "Cadiot-Badie"
     },
     {
-      "file": "public/images/partenaires/tbm.svg",
+      "file": "public/images/partenaires/tbm.png",
       "node": "2060:11560",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 163,
       "label": "TBM"
@@ -584,17 +584,17 @@
       "label": "Gironde, le Département"
     },
     {
-      "file": "public/images/partenaires/region-nouvelle-aquitaine.svg",
+      "file": "public/images/partenaires/region-nouvelle-aquitaine.png",
       "node": "2060:11504",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 230,
       "label": "Région Nouvelle-Aquitaine"
     },
     {
-      "file": "public/images/partenaires/ville-de-pessac.svg",
+      "file": "public/images/partenaires/ville-de-pessac.png",
       "node": "2060:11529",
-      "format": "svg",
+      "format": "png",
       "width": 230,
       "height": 88,
       "label": "Ville de Pessac"

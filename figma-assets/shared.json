@@ -2,44 +2,6 @@
   "$comment": "Images partagées (logos partenaires). imageRef = hash de remplissage Figma ; node = id de calque rendu par l'API Figma.",
   "assets": [
     {
-      "file": "public/images/partners/bergonie.png",
-      "imageRef": "d3dfc6b84d5b6da4700136136fc2a951da7398f7",
-      "width": 900,
-      "height": 500
-    },
-    {
-      "file": "public/images/partners/condor.png",
-      "imageRef": "ac205c7a0e6f2d98a5d6085fa2cbacad6f6d5deb",
-      "width": 240,
-      "height": 185
-    },
-    {
-      "file": "public/images/partners/pessac.svg",
-      "node": "I2055:6170;2055:5759;2035:2333",
-      "format": "svg",
-      "width": 115,
-      "height": 44
-    },
-    {
-      "file": "public/images/partners/credit-mutuel-sud-ouest.png",
-      "imageRef": "913df3d7185ea1e623c3cc4c9f02f061da1a8265",
-      "width": 245,
-      "height": 246
-    },
-    {
-      "file": "public/images/partners/region-nouvelle-aquitaine.svg",
-      "node": "I2055:6170;2055:5759;2035:2381",
-      "format": "svg",
-      "width": 115,
-      "height": 115
-    },
-    {
-      "file": "public/images/partners/abatilles.png",
-      "imageRef": "aa87cea02c195c0d605ec39d2165062e3c5ed977",
-      "width": 200,
-      "height": 200
-    },
-    {
       "file": "public/og.png",
       "node": "2081:6709",
       "format": "png",

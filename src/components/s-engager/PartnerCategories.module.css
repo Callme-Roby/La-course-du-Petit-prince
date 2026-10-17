@@ -45,6 +45,12 @@
   transition: filter 0.3s ease;
 }
 
+/* Logos blancs : fond sombre pour rester lisibles */
+.dark {
+  border-color: var(--color-footer);
+  background: var(--color-footer);
+}
+
 .card:hover .logo {
   filter: none;
 }

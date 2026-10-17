@@ -19,7 +19,7 @@ export default function PartnerCategories() {
             </h3>
             <ul className={styles.grid}>
               {cat.partners.map((p) => (
-                <li key={p.name} className={styles.card}>
+                <li key={p.name} className={p.onDark ? `${styles.card} ${styles.dark}` : styles.card}>
                   <Image
                     src={p.logo}
                     alt={p.name}
