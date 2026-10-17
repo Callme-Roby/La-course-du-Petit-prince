@@ -1,10 +1,29 @@
 {
   "$comment": "Page L'événement (2063:14518). imageRef = hash de remplissage Figma.",
   "assets": [
-    { "file": "public/images/evenement/hero.jpg", "imageRef": "8a32d2d0eeeb5fffe4826b59eb27a8e5a88cdc07", "width": 1152, "height": 768 },
-    { "file": "public/images/evenement/galerie-1.jpg", "imageRef": "1f5e577fae1f6ee1fda0782c36322d4f65ae5655", "width": 1152, "height": 768 },
-    { "file": "public/images/evenement/galerie-2.jpg", "imageRef": "58a87ab37e18dc1d85f9e5586ba9f8704bf0656f", "width": 1152, "height": 768 },
-    { "file": "public/images/evenement/galerie-3.jpg", "imageRef": "270777c60546cab71818352441890f7bc9f1d3c5", "width": 1152, "height": 768 },
-    { "file": "public/images/evenement/galerie-4.jpg", "imageRef": "d3ac1a5ff20efab666474e7aaefee2dea2fa75bc", "width": 1152, "height": 768 }
+    {
+      "file": "public/images/evenement/galerie-1.jpg",
+      "imageRef": "1f5e577fae1f6ee1fda0782c36322d4f65ae5655",
+      "width": 1152,
+      "height": 768
+    },
+    {
+      "file": "public/images/evenement/galerie-2.jpg",
+      "imageRef": "58a87ab37e18dc1d85f9e5586ba9f8704bf0656f",
+      "width": 1152,
+      "height": 768
+    },
+    {
+      "file": "public/images/evenement/galerie-3.jpg",
+      "imageRef": "270777c60546cab71818352441890f7bc9f1d3c5",
+      "width": 1152,
+      "height": 768
+    },
+    {
+      "file": "public/images/evenement/galerie-4.jpg",
+      "imageRef": "d3ac1a5ff20efab666474e7aaefee2dea2fa75bc",
+      "width": 1152,
+      "height": 768
+    }
   ]
 }

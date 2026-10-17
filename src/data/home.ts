@@ -56,8 +56,8 @@ export const races: Race[] = [
 
 /** Section "Retour en images" (2055:6117). */
 export const homeGallery: GalleryImage[] = [
-  { src: "/images/home/galerie-1.jpg", alt: "Coureurs et une petite fille franchissant l’arrivée", position: "58% 50%" },
-  { src: "/images/home/galerie-2.jpg", alt: "Départ de la course des enfants sous la pluie" },
-  { src: "/images/home/galerie-3.jpg", alt: "Peloton de coureurs en maillots bleus" },
-  { src: "/images/home/galerie-4.jpg", alt: "Un coureur et une fillette main dans la main", position: "80% 50%" },
+  { src: "/images/home/galerie-1.jpg", alt: "Une petite fille et des coureurs dans la dernière ligne droite avant l’arrivée", position: "66% 50%" },
+  { src: "/images/home/galerie-2.jpg", alt: "Départ de la course des enfants sous la pluie", position: "50% 60%" },
+  { src: "/images/home/galerie-3.jpg", alt: "Peloton de coureurs en maillots bleus sur les sentiers du Bourgailh", position: "42% 50%" },
+  { src: "/images/home/galerie-4.jpg", alt: "Un coureur franchit l’arrivée main dans la main avec une coureuse et une enfant", position: "62% 50%" },
 ];

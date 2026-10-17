@@ -28,7 +28,7 @@ export default function EvenementPage() {
         image={{
           src: "/images/evenement/hero.jpg",
           alt: "Coureurs au départ de la Course du Petit Prince",
-          position: "50% 83%",
+          position: "50% 40%",
         }}
       />
       <Separator />

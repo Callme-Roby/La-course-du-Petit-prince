@@ -1,29 +1,4 @@
 {
   "$comment": "Les photos hero / course-enfants / marches / trail-7km / trail-17km sont fournies par l'association (hors manifeste).",
-  "assets": [
-    {
-      "file": "public/images/home/galerie-1.jpg",
-      "imageRef": "017e05173f054b5e4a5561af48184b6f3ca409c4",
-      "width": 1152,
-      "height": 768
-    },
-    {
-      "file": "public/images/home/galerie-2.jpg",
-      "imageRef": "58a87ab37e18dc1d85f9e5586ba9f8704bf0656f",
-      "width": 1152,
-      "height": 768
-    },
-    {
-      "file": "public/images/home/galerie-3.jpg",
-      "imageRef": "512d5a48ef80aaa8149868c38b331aa573a6250a",
-      "width": 1149,
-      "height": 768
-    },
-    {
-      "file": "public/images/home/galerie-4.jpg",
-      "imageRef": "025e4936c8b5e1d2a813df99135d4f3bef8306e0",
-      "width": 1152,
-      "height": 768
-    }
-  ]
+  "assets": []
 }
